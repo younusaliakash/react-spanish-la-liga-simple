@@ -1,0 +1,41 @@
+.description{
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 22px; 
+}
+.team-card{
+    border-radius: 10px;
+    align-items: center;
+    background: linear-gradient(45deg, #6855a8, #4f29cd);
+}
+.team-detalis-description, .team-description{
+    padding: 20px;
+}
+.team-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+.icon{  
+    margin-right: 25px;
+}
+.first-part, .last-part{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.last-part{
+    padding-bottom: 40px;
+}
+.social-link{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.facebookIcon{
+    color: #4267B2;
+}
+.youtubeIcon{
+    color: rgba(233, 36, 36, 0.87) ; 
+}

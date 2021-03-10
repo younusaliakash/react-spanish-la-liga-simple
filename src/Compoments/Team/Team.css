@@ -1,0 +1,38 @@
+.team-badge{
+    width: 100px;
+    margin: 0 auto;
+}
+.team-info{
+    color: black;
+    margin: 15px 0px 15px 0px;
+}
+.card{
+    background: linear-gradient(45deg, #9695b8, white);
+    padding:20px 60px 20px 60px ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card:hover{
+    color: whitesmoke;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 2);
+    background: linear-gradient(45deg, #b95ce4, #4f29cd)
+}
+.card-body{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.team-name{
+    font-weight: 700;
+}
+.sport-type{
+    font-size: 15px;
+}
+.btn{
+    margin-top: 10px;
+    align-items: center;
+}
+.arrow{
+    margin-left: 5px;
+}
