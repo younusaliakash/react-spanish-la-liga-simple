@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./TeamDetalis.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   faFlag,
   faFutbol,
@@ -19,7 +19,7 @@ import {
 import DetalisHeader from "../DetailsHeader/DetalisHeader";
 
 const TeamDetails = () => {
-  const [team, setTeam] = useState([]);
+  const [team, setTeam] = useState({});
   const { idTeam } = useParams();
 
   const {
