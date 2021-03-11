@@ -23,7 +23,7 @@ const Team = (props) => {
           <div className="card-body">
             <h4 className="card-title team-name">{strTeam}</h4>
             <p className="card-text sport-type">Sports Type : {strSport}</p>
-            <button onClick={() => handleClickBtn(idTeam)} className="btn btn-primary">Expolre <FontAwesomeIcon className="arrow" icon={faLongArrowAltRight} /></button>
+            <button onClick={() => handleClickBtn(idTeam)} className="btn btn-primary">Explore <FontAwesomeIcon className="arrow" icon={faLongArrowAltRight} /></button>
           </div>
         </div>
       </div>
