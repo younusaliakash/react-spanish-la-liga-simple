@@ -26,6 +26,7 @@ const TeamDetails = () => {
     strTeam,
     intFormedYear,
     strTeamBadge,
+    strStadiumThumb,
     strCountry,
     strSport,
     strGender,
@@ -45,7 +46,7 @@ const TeamDetails = () => {
   return (
     <div className="team-details">
       <div className="team-detalis-logo">
-        <DetalisHeader teamLogo={strTeamBadge}></DetalisHeader>
+        <DetalisHeader teamLogo={strTeamBadge} strStadiumThumb={strStadiumThumb}></DetalisHeader>
       </div>
       <div className="container team-detalis-description">
         <div className="row team-card p-2">

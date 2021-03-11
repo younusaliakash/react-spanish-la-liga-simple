@@ -3,7 +3,10 @@
 }
 .header{
     background: linear-gradient(45deg, #2c3a47ad, #2c3a47ad),url("https://soccergator.io/wp-content/uploads/post-media/Best%20Stadiums%20in%20Spain%20(National%20and_or%20Club%20Stadiums)/Camp-Nou-Barcelona-960x640.jpeg");
-    background-size: cover;
+    
+}
+.detailHeader, .header{
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 }

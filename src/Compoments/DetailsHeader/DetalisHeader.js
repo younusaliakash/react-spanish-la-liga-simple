@@ -1,10 +1,15 @@
 import React from "react";
 
 const DetalisHeader = (props) => {
-  const { teamLogo } = props;
+  const { teamLogo,strStadiumThumb } = props;
+  // console.log(strStadiumThumb)
+
+  let header ={
+    backgroundImage : `linear-gradient(45deg, #2c3a47ad, #2c3a47ad),url("${strStadiumThumb}")`
+  }
   return (
     <div>
-      <div className="header">
+      <div className="detailHeader" style={header}>
         <div className="container">
           <div className="row">
             <div className="col-md-12">
